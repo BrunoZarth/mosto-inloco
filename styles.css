@@ -23,6 +23,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 3%;
 }
 
 #img-header {
@@ -180,12 +181,16 @@ footer p {
         padding: 5%;
     }
 
-    .texto-section p {
-        padding: 4% 8% 14% 8%;
+    #img-header {
+        width: 70%;
     }
 
     .imagem-section {
         order: 1;
+    }
+
+    header {
+        margin-top: 5%;
     }
 }
 
@@ -194,5 +199,9 @@ footer p {
         width: auto;
         padding: 5%;
         font-size: 1rem;
+    }
+
+    header {
+        margin-top: 8%;
     }
 }
