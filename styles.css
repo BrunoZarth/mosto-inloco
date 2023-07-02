@@ -154,6 +154,20 @@ footer p {
 
     .sobreamosto{
         flex-direction: column;
+        border: none; 
+        margin-top: none; 
+        margin-bottom: none; 
+    }
+
+    .sobreamosto p {
+        width: 50%;
+    }
+
+    .sobreamosto img {
+        width: 20%;
+        order: 1;
+        margin-top: 6%;
+        margin-bottom: 8%;
     }
 
     section div{
@@ -162,5 +176,13 @@ footer p {
 
     .imagem-section {
         order: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .sobreamosto p {
+        width: auto;
+        padding: 5%;
+        font-size: 1rem;
     }
 }
