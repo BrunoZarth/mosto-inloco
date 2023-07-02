@@ -129,7 +129,19 @@ section div :hover {
 }
 
 .contato {
+    
+    width: 100%;
+}
+
+.contato div {
+    border: 0.1rem solid #7daa59;
     flex-direction: column;
+    display: flex;
+    padding: 8%;
+}
+
+.contato h1 {
+    padding: 0%;
 }
 
 .contato h2 {
@@ -155,7 +167,9 @@ footer p {
     section {
         width: auto;
     }
-
+    .contato h1 {
+        padding: 0%;
+    }
 
 }
 
@@ -198,6 +212,10 @@ footer p {
     header {
         margin-top: 5%;
     }
+
+    .contato h1 {
+        padding: 0%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -209,5 +227,9 @@ footer p {
 
     header {
         margin-top: 8%;
+    }
+
+    .contato h1 {
+        padding: 0%;
     }
 }
