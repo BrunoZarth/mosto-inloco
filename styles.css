@@ -47,6 +47,7 @@ main {
     padding: 3% 0 3% 0;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #a9a9a94d;
 }
 
 .sobreamosto div {
@@ -110,6 +111,11 @@ section div :hover {
 .texto-section ul {
     padding-bottom: 8%;
     width: 100%;
+}
+
+.imagem-section {
+    width: 100%;
+    overflow: hidden;
 }
 
 .imagem-section img {
