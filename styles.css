@@ -103,16 +103,17 @@ section div :hover {
 }
 
 .texto-section p {
-    padding: 2%;
+    padding: 4% 8% 14% 8%;
 }
 
 .texto-section ul {
-    padding: 2%;
+    padding-bottom: 8%;
     width: 100%;
 }
 
 .imagem-section img {
     width: 100%;
+    overflow: hidden;
 }
 
 .imagem-section :hover {
@@ -173,6 +174,14 @@ footer p {
 
     section div{
         flex-direction: column;
+    }
+
+    section h1 {
+        padding: 5%;
+    }
+
+    .texto-section p {
+        padding: 4% 8% 14% 8%;
     }
 
     .imagem-section {
