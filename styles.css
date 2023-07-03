@@ -21,9 +21,10 @@ verde: 7daa59
 
 body {
     background-image: url(img/background.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 160rem;
 }
 
 ul li a, :visited {
@@ -277,6 +278,15 @@ footer p {
 }
 
 @media (max-width: 600px) {
+
+    body {
+        background-image: url(img/background.jpg);
+        background-position: 46% -102%;
+        background-repeat: no-repeat;
+        background-size: auto; 
+        height: 145rem;
+    }
+
     .sobreamosto p {
         width: auto;
         padding: 5%;
