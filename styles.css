@@ -70,6 +70,43 @@ main {
     width: 15%;
 }
 
+
+#menu {
+    width: 54%;
+    margin-bottom: 5%;
+}
+
+#menu menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2% 2% 0 2%;
+}
+
+
+#menu h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #7daa59;
+    margin-bottom: 2%;
+}
+
+#menu menu a, :visited{
+    width: 48%;
+    text-align: center;
+    margin: 1%;
+    color: #7daa59;
+    text-decoration: none;
+}
+
+#menu menu a li {
+    border: 0.1rem solid #7daa59;
+    padding: 5%;
+    background-color: #e5e5e5;
+    color: #7daa59;
+    font-size: 1.2rem;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -193,6 +230,15 @@ footer p {
         margin-bottom: 8%;
     }
 
+    #menu {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #menu menu a li {
+        border: none;
+    }
+
     section div{
         flex-direction: column;
     }
@@ -223,6 +269,10 @@ footer p {
         width: auto;
         padding: 5%;
         font-size: 1rem;
+    }
+
+    #menu menu a, :visited {
+        width: 100%;
     }
 
     header {
