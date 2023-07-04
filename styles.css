@@ -183,6 +183,11 @@ section div :hover {
     width: 100%;
 }
 
+.contato :hover{
+    color: #2c2b29;
+    width: 100%;
+}
+
 .contato div {
     border: 0.1rem solid #7daa59;
     flex-direction: column;
